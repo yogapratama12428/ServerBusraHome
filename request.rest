@@ -1,0 +1,34 @@
+//Request Post Data 
+POST https://sn85sk.deta.dev/device
+Content-Type: application/json
+
+{
+    "device": "Garasi",
+    "state": true
+}
+###
+//Request Get All Data
+GET https://sn85sk.deta.dev/device
+
+###
+// Request Update data by Id
+POST https://sn85sk.deta.dev/device/63e476c4689a8e80d9b2bbad/update
+Content-Type: application/json
+
+{
+    "state": false
+}
+###
+// Request Delete Data by Id
+DELETE https://sn85sk.deta.dev/device/63e47a04689a8e80d9b2bbed
+Content-Type: application/json
+
+###
+POST https://kemarilah.net/temp.php
+Content-Type: application/json
+
+{
+    "ktp": "1113",
+    "usersid": 1
+}
+###
